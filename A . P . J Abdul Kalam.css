@@ -1,0 +1,80 @@
+#image1 {
+    height: 300px;
+    width: 250px;
+    margin-left: 150px;
+    border-radius: 50000000000px;
+    box-shadow: 10px 10px 20px rgb(36, 33, 33);
+}
+
+#fullbody {
+    background: linear-gradient(rgb(181, 255, 249), rgb(255, 255, 255), rgb(192, 181, 255));
+}
+
+#head1 {
+    position: relative;
+    top: 260px;
+    left: 430px;
+    text-shadow: 5px 5px 5px rgb(36, 33, 33);
+}
+
+#year1 {
+    position: relative;
+    left: 610px;
+    top: 240px;
+}
+
+#head2 {
+    font-size: 30px;
+    text-shadow: 5px 5px 5px rgb(36, 33, 33);
+}
+
+#about {
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+}
+
+#Wikipedia {
+    position: relative;
+    left: 700px;
+}
+
+@media(max-width:450px) {
+    #image1 {
+        height: 110px;
+        width: 84px;
+        margin-left: -4px;
+        border-radius: 50000000000px;
+        box-shadow: 10px 10px 20px rgb(36, 33, 33);
+    }
+
+    #head1 {
+        font-size: 15px;
+        position: relative;
+        top: 120px;
+        left: 92px;
+        text-shadow: 5px 5px 5px rgb(36, 33, 33);
+    }
+
+    #year1 {
+        font-size: 15px;
+        position: relative;
+        left: 150px;
+        top: 116px;
+    }
+
+    #head2 {
+        font-size: 11px;
+        text-shadow: 5px 5px 5px rgb(36, 33, 33);
+    }
+
+    #about {
+        font-size: 10px;
+    }
+
+    #Wikipedia {
+        font-size:10px;
+        position: relative;
+        left: 200px;
+    }
+}
